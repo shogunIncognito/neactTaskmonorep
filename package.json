@@ -1,0 +1,17 @@
+{
+  "name": "reactnesttask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "start": "node apps/apinest/dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
